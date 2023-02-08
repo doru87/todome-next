@@ -35,10 +35,6 @@ export default function LanguageMenu() {
     language: ""
   });
 
-React.useEffect(() => {
-
-}, [values])
-
   function handleChange(event:any) {
     
     setValues(oldValues => ({
