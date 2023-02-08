@@ -34,7 +34,7 @@ export default function LanguageMenu() {
   const [values, setValues] = React.useState({
     language: ""
   });
-
+ console.log(true);
   function handleChange(event:any) {
     
     setValues(oldValues => ({
